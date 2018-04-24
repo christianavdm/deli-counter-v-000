@@ -1,16 +1,5 @@
 katz_deli = []
 
-def assign_rooms(list)
-  room = 1 
-  room_assignments = []
-  list.each do |name|
-    room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
-    room += 1
-  end
-  return room_assignments
-end
-
-
 def line(katz_deli) 
   if katz_deli.count == 0 
     puts "The line is currently empty."

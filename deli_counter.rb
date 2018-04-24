@@ -10,7 +10,7 @@ def line(katz_deli)
       line_positions << "#{counter}. #{name} "
       counter += 1
     end
-    puts line_positions
+    puts line_positions.join
   end
 end
 

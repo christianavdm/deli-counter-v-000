@@ -6,7 +6,7 @@ def line(katz_deli)
   else 
     puts "The line is currently: "
     katz_deli.each do |name|
-      puts "1. "
+      puts "1. #{name} "
     
   end
   

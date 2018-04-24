@@ -1,14 +1,6 @@
 katz_deli = []
 
-def line(katz_deli)
-  line = 1 
-  katz_deli = []
-  list.each do |name|
-    room_assignments << "Hello, #{name}! You'll be assigned to room #{room}!"
-    room += 1
-  end
-  return room_assignments
-end
+
 
 
 def line(katz_deli) 

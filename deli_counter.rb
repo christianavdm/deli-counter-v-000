@@ -16,12 +16,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   else 
     counter = 1
-    line_positions = []
+    line_positions = ["The line is currently: "]
     katz_deli.each do |name|
       line_positions << "#{counter}. #{name} "
       counter += 1
     end
-    puts "The line is currently: "
+    puts line_positions
   end
 end
 

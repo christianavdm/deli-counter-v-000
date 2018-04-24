@@ -10,7 +10,6 @@ def line(katz_deli)
       puts "#{counter}. #{name} "
       counter += 1
   end
-  
 end
 
 take_a_number(katz_deli, name)
